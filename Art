@@ -1,0 +1,24 @@
+/*  Thomas Mix
+    Art Project #1
+    LaBass
+*/
+
+size(400, 400);
+background(110, 157, 222);
+
+//Creates grass
+fill(2, 80, 2);
+rect(0, 300, 400, 100);
+
+//Creates body
+fill(75, 64, 48);
+ellipse(200, 225, 200, 75); //Body
+rect(115, 235, 10, 65); //Leg
+rect(275, 235, 10, 65); //Leg
+ellipse(335, 200, 100, 75); //Head
+
+//Creates eyes
+fill(255, 255, 255);
+ellipse(365, 200, 10, 10);
+fill(0,0,0);
+ellipse(365, 200, 2, 2);
